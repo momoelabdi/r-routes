@@ -8,6 +8,7 @@ function Profile() {
     <div>
       This is the Profile page of { username }
        <button onClick={ () => {navigate('/')} }>Change to home page </button>
+
     </div>
    );
 }
